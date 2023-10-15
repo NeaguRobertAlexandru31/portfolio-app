@@ -1,8 +1,12 @@
-h3{
-    color: red;
+h3 {
+  color: red;
 }
 
-a{
-    text-decoration: none;
-    color: #2c2c2c;
+a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.sfondo {
+  background-image: url("https://img.freepik.com/free-photo/faded-gray-wooden-textured-flooring-background_53876-110739.jpg?w=1480&t=st=1697370545~exp=1697371145~hmac=b9aad25c8e7326524ee2188d6465014cb6c989ae97fba018984807d730cec8a7");
 }
