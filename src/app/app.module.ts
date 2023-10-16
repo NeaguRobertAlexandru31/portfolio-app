@@ -14,7 +14,7 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     FooterComponent,
     ReservationsComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
