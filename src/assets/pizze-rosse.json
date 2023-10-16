@@ -1,0 +1,261 @@
+[
+  {
+    "title": "4 Formaggi",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Gorgonzola",
+      "Fontina",
+      "Parmigiano"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza ai 4 Formaggi"
+  },
+  {
+    "title": "4 Stagioni",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Prosciutto cotto",
+      "Funghi champignon",
+      "Carciofi",
+      "Olive taggiasche"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza 4 Stagioni"
+  },
+  {
+    "title": "Americana",
+    "ingredients": ["Pomodoro", "Mozzarella", "Wurstel", "Patatine fritte"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Americana"
+  },
+  {
+    "title": "Belzebù",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Salamino piccante",
+      "'Nduja",
+      "Peperoni",
+      "Scamorza affumicata",
+      "Olio piccante"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Belzebù"
+  },
+  {
+    "title": "Bismark",
+    "ingredients": ["Pomodoro", "Mozzarella", "Uovo", "Prosciutto cotto"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Bismark"
+  },
+  {
+    "title": "Bufala",
+    "ingredients": ["Pomodoro", "Mozzarella di bufala"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Bufala"
+  },
+  {
+    "title": "Calabra",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Salamino piccante",
+      "Olive nere",
+      "Cipolle",
+      "'Nduja"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Calabra"
+  },
+  {
+    "title": "Calzone",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Prosciutto cotto",
+      "Funghi champignon"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Calzone"
+  },
+  {
+    "title": "Capricciosa",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Olive taggiasche",
+      "Carciofi",
+      "Funghi champignon",
+      "Prosciutto cotto"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Capricciosa"
+  },
+  {
+    "title": "Campagnola",
+    "ingredients": ["Pomodoro", "Mozzarella", "Cipolle", "Gorgonzola"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Campagnola"
+  },
+  {
+    "title": "Diavola",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Salamino piccante",
+      "Funghi champignon"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Diavola"
+  },
+  {
+    "title": "Golosona",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Pancetta",
+      "Funghi",
+      "Scamorza affumicata",
+      "Pomodoro fresco"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Golosona"
+  },
+  {
+    "title": "Italiana",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Melanzane",
+      "Zucchine",
+      "Speck",
+      "Fontina",
+      "Scaglie di parmigiano"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Italiana"
+  },
+  {
+    "title": "Margherita",
+    "ingredients": ["Pomodoro", "Mozzarella"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Margherita"
+  },
+  {
+    "title": "Mare & Monti",
+    "ingredients": ["Pomodoro", "Mozzarella", "Gamberetti", "Funghi porcini"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Mare & Monti"
+  },
+  {
+    "title": "Merk",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Prosciutto cotto",
+      "Wurstel",
+      "Salsiccia",
+      "Salamino piccante"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Merk"
+  },
+  {
+    "title": "Napoli",
+    "ingredients": ["Pomodoro", "Mozzarella", "Acciughe", "Origano"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Napoli"
+  },
+  {
+    "title": "Nord & Sud",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Gorgonzola",
+      "'Nduja",
+      "Melanzane",
+      "Salsiccia"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Nord & Sud"
+  },
+  {
+    "title": "Norvegese",
+    "ingredients": ["Pomodoro", "Mozzarella", "Salmone", "Panna", "Rucola"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Norvegese"
+  },
+  {
+    "title": "Occhio di Bue",
+    "ingredients": ["Pomodoro", "Mozzarella", "Pancetta", "Uovo", "Cipolle"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Occhio di Bue"
+  },
+  {
+    "title": "Parma",
+    "ingredients": ["Pomodoro", "Mozzarella", "Prosciutto crudo"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Parma"
+  },
+  {
+    "title": "Porca Vacca",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Prosciutto cotto",
+      "Panna",
+      "Parmigiano"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Porca Vacca"
+  },
+  {
+    "title": "Porcini & Salsiccia",
+    "ingredients": ["Pomodoro", "Mozzarella", "Funghi porcini", "Salsiccia"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Porcini & Salsiccia"
+  },
+  {
+    "title": "Primavera",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella di bufala",
+      "Pomodoro ciliegino",
+      "Scaglie di parmigiano"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Primavera"
+  },
+  {
+    "title": "Prosciutto & Funghi",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Prosciutto",
+      "Funghi champignon"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Prosciutto & Funghi"
+  },
+  {
+    "title": "Sfiziosa",
+    "ingredients": ["Pomodoro", "Mozzarella", "Gorgonzola", "Pancetta"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Sfiziosa"
+  },
+  {
+    "title": "Siciliana",
+    "ingredients": [
+      "Pomodoro",
+      "Mozzarella",
+      "Acciughe",
+      "Capperi",
+      "Olive nere",
+      "Cipolle"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Siciliana"
+  }
+]
