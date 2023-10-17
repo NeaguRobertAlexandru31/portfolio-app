@@ -1,0 +1,38 @@
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a
+      class="nav-link active"
+      aria-current="page"
+      routerLink="/reservations/pizze-rosse"
+      >Pizze rosse</a
+    >
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Pizze bianche</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Focacce</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Bevande</a>
+  </li>
+</ul>
+
+<div class="container">
+  <div class="row">
+    <div class="card m-3" style="width: 18rem" *ngFor="let card of cards">
+      <img
+        [src]="card.imageUrl"
+        class="card-img-top"
+        alt="{{ card.altText }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ card.title }}</h5>
+        <p class="card-text">{{ card.ingredients.join(", ") }}</p>
+      </div>
+      <div class="card-footer bg-white">
+        <button class="btn btn-success w-45 rounded-5">Seleziona</button>
+      </div>
+    </div>
+  </div>
+</div>

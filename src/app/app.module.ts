@@ -7,6 +7,10 @@ import { FooterComponent } from './footer/footer.component';
 import { ReservationsComponent } from './reservations/reservations.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PizzeRosseComponent } from './pizze-rosse/pizze-rosse.component';
+import { PizzeBiancheComponent } from './pizze-bianche/pizze-bianche.component';
+import { FocacceComponent } from './focacce/focacce.component';
+import { BevandeComponent } from './bevande/bevande.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +19,10 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     ReservationsComponent,
     HomeComponent,
+    PizzeRosseComponent,
+    PizzeBiancheComponent,
+    FocacceComponent,
+    BevandeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ReservationsComponent } from './reservations/reservations.component';
 import { HomeComponent } from './home/home.component';
+import { PizzeRosseComponent } from './pizze-rosse/pizze-rosse.component';
+import { PizzeBiancheComponent } from './pizze-bianche/pizze-bianche.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'reservations', component: ReservationsComponent },
+  { path: 'reservations', component: PizzeRosseComponent },
+  { path: 'reservations/pizze-rosse', component: PizzeRosseComponent },
+  { path: 'reservations/pizze-bianche', component: PizzeBiancheComponent },
   { path: '',   redirectTo: '/home', pathMatch: 'full' }, // redirect to `first-component`
 ];
 
