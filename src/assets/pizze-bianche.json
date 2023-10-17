@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Biancaneve",
+    "ingredients": ["Mozzarella", "Stracchino", "Rucola"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Biancaneve",
+    "type": "Bianca"
+  },
+  {
+    "title": "Cartoccio",
+    "ingredients": ["Mozzarella di bufala", "Zucchine", "Pancetta"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Cartoccio",
+    "type": "Bianca"
+  },
+  {
+    "title": "Gustosa",
+    "ingredients": [
+      "Mozzarella",
+      "Prosciutto crudo",
+      "Funghi champignon",
+      "Panna",
+      "Scaglie di parmigiano"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Gustosa",
+    "type": "Bianca"
+  },
+  {
+    "title": "Gorgo e Pere",
+    "ingredients": ["Mozzarella", "Gorgonzola", "Pere"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Gorgo e Pere",
+    "type": "Bianca"
+  },
+  {
+    "title": "Raffinata",
+    "ingredients": [
+      "Mozzarella",
+      "Gamberetti",
+      "Zucchine",
+      "Stracchino",
+      "Pomodoro fresco",
+      "Scaglie di parmigiano"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Raffinata",
+    "type": "Bianca"
+  },
+  {
+    "title": "Rustica",
+    "ingredients": ["Pomodoro ciliegino", "Mozzarella", "Stracchino", "Speck"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Rustica",
+    "type": "Bianca"
+  },
+  {
+    "title": "Salsiccia e Friarielli",
+    "ingredients": ["Mozzarella", "Salsiccia", "Friarielli"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Pizza Salsiccia e Friarielli",
+    "type": "Bianca"
+  }
+]

@@ -1,3 +1,10 @@
-.flag{
-    background-color: linear-gradient(33% #000, 66% #f1f1f1, 100% #ed4000) !important;
+.flag {
+  background-color: linear-gradient(
+    33% #000,
+    66% #f1f1f1,
+    100% #ed4000
+  ) !important;
+}
+.card-footer {
+  border-top: 0;
 }
