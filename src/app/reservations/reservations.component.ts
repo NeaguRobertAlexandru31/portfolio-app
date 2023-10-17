@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./reservations.component.css'],
 })
 export class ReservationsComponent {
-  
+  searchTerm: string = '';
+  selectedPill: string = 'rosse';
 }
