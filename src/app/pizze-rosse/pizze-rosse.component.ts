@@ -9,7 +9,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PizzeRosseComponent implements OnInit {
   cards: Meal[] = [];
+  searchTerm: string = '';
+
   constructor(private http: HttpClient) {}
+  
   ngOnInit(): void {
     this.http.get<Meal[]>('./assets/pizze-rosse.json').subscribe((data) => {
       this.cards = data;
