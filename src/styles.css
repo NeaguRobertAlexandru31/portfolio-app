@@ -13,3 +13,6 @@ app-component {
 app-reservations a:hover {
   cursor: pointer; /* Imposta il cursore su "pointer" (mano) */
 }
+.card {
+  height: 100%;
+}
