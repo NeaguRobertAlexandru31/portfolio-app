@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Focaccia Origano e Rosmarino",
+    "type": "Focaccia",
+    "ingredients": ["Olio", "Origano", "Rosmarino"],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Focaccia Origano e Rosmarino"
+  },
+  {
+    "title": "Focaccia Reale",
+    "type": "Focaccia",
+    "ingredients": [
+      "Pomodoro ciliegino",
+      "Mozzarella di bufala",
+      "Prosciutto crudo",
+      "Rucola"
+    ],
+    "imageUrl": "https://img.freepik.com/free-photo/hot-tasty-pizza_144627-12403.jpg?w=1380&t=st=1694859466~exp=1694860066~hmac=ead0cd0084c33ae38f97bdb99a87792ff78f035d1eb91c25ac4568dd5417cf59",
+    "altText": "Focaccia Reale"
+  }
+]
