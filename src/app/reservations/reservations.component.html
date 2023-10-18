@@ -1,34 +1,75 @@
-<ul class="nav nav-tabs">
-    <li class="nav-item">
-        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.rosse}" (click)="selectPillFunction(selectPill.rosse)">Pizze rosse</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.bianche}" (click)="selectPillFunction(selectPill.bianche)">Pizze bianche</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.focacce}" (click)="selectPillFunction(selectPill.focacce)">Focacce</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.bevande}" (click)="selectPillFunction(selectPill.bevande)">Bevande</a>
-    </li>
-</ul>
+<div class="row">
+  <div class="col-lg-9">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [ngClass]="{ active: selectedPill === selectPill.rosse }"
+          (click)="selectPillFunction(selectPill.rosse)"
+          >Pizze rosse</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [ngClass]="{ active: selectedPill === selectPill.bianche }"
+          (click)="selectPillFunction(selectPill.bianche)"
+          >Pizze bianche</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [ngClass]="{ active: selectedPill === selectPill.focacce }"
+          (click)="selectPillFunction(selectPill.focacce)"
+          >Focacce</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [ngClass]="{ active: selectedPill === selectPill.bevande }"
+          (click)="selectPillFunction(selectPill.bevande)"
+          >Bevande</a
+        >
+      </li>
+    </ul>
 
-<app-search-bar></app-search-bar>
+    <app-search-bar></app-search-bar>
 
-<div class="tab-content">
-    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.rosse}">
+    <div class="tab-content">
+      <div
+        class="tab-pane"
+        [ngClass]="{ active: selectedPill === selectPill.rosse }"
+      >
         <app-pizze-rosse></app-pizze-rosse>
-    </div>
-    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.bianche}">
+      </div>
+      <div
+        class="tab-pane"
+        [ngClass]="{ active: selectedPill === selectPill.bianche }"
+      >
         <!-- Contenuto della Pill 2 -->
         <app-pizze-bianche></app-pizze-bianche>
-    </div>
-    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.focacce}">
+      </div>
+      <div
+        class="tab-pane"
+        [ngClass]="{ active: selectedPill === selectPill.focacce }"
+      >
         <!-- Contenuto della Pill 3 -->
         <app-focacce></app-focacce>
-    </div>
-    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.bevande}">
+      </div>
+      <div
+        class="tab-pane"
+        [ngClass]="{ active: selectedPill === selectPill.bevande }"
+      >
         <!-- Contenuto della Pill 4 -->
         <app-bevande></app-bevande>
+      </div>
     </div>
+  </div>
+
+  <!-- Cart -->
+  <div class="col-lg-3">
+      <app-cart></app-cart>
+  </div>
 </div>
