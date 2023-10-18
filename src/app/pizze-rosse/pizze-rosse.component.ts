@@ -14,12 +14,13 @@ export class PizzeRosseComponent implements OnInit {
 
   openModal() {
     this.isModalOpen = true;
-    console.log('open modal');
+    const body: any = document.querySelector('body');
+    body.classList.add('block');
   }
-
   closeModal() {
     this.isModalOpen = false;
   }
+
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {

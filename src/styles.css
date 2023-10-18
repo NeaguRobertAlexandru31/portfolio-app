@@ -1,8 +1,15 @@
-app-component{
-    height: 80vh;
+app-component {
+  height: 80vh;
 }
-.flag{
-    background: rgb(14,255,0);
-background: linear-gradient(90deg, rgba(14,255,0,0.68968837535014) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,0.47960434173669464) 100%);
-
+.flag {
+  background: rgb(14, 255, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 255, 0, 0.68968837535014) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 0, 0, 0.47960434173669464) 100%
+  );
+}
+.block {
+  overflow: hidden;
 }
