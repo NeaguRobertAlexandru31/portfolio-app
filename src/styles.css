@@ -16,3 +16,6 @@ app-reservations a:hover {
 .card {
   height: 100%;
 }
+.card .card-footer {
+  border-top: 0;
+}
