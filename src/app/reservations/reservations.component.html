@@ -1,27 +1,41 @@
-<div class="container">
-  <div class="row">
-    <h2>Ordina qui le tue pizze!</h2>
+<!-- Barra di ricerca -->
+<div class="container d-flex justify-content-center">
+    <div class="row">
+        <div class="col-lg-12 ">
+            <input type="text" [(ngModel)]="searchTerm" placeholder="Cerca per nome o ingrediente" class="form-control m-3" />
+        </div>
+    </div>
+</div>
 
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a
-          class="nav-link active"
-          aria-current="page"
-          routerLink="/reservations/pizze-rosse"
-          >Pizze rosse</a
-        >
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/reservations/pizze-bianche"
-          >Pizze bianche</a
-        >
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/reservations/focacce">Focacce</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/reservations/bevande">Bevande</a>
-      </li>
-    </ul>
-  </div>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.rosse}" (click)="selectPillFunction(selectPill.rosse)">Pizze rosse</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.bianche}" (click)="selectPillFunction(selectPill.bianche)">Pizze bianche</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.focacce}" (click)="selectPillFunction(selectPill.focacce)">Focacce</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" [ngClass]="{'active': selectedPill === selectPill.bevande}" (click)="selectPillFunction(selectPill.bevande)">Bevande</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.rosse}">
+        <app-pizze-rosse></app-pizze-rosse>
+    </div>
+    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.bianche}">
+        <!-- Contenuto della Pill 2 -->
+        <app-pizze-bianche></app-pizze-bianche>
+    </div>
+    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.focacce}">
+        <!-- Contenuto della Pill 3 -->
+        <app-focacce></app-focacce>
+    </div>
+    <div class="tab-pane" [ngClass]="{'active': selectedPill === selectPill.bevande}">
+        <!-- Contenuto della Pill 4 -->
+        <app-bevande></app-bevande>
+    </div>
 </div>

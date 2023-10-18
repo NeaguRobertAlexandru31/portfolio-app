@@ -1,21 +1,16 @@
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/reservations/pizze-rosse">Pizze rosse</a>
-  </li>
-  <li class="nav-item">
-    <a
-      class="nav-link active"
-      aria-current="page"
-      routerLink="/reservations/pizze-bianche"
-      >Pizze bianche</a
-    >
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/reservations/focacce">Focacce</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/reservations/bevande">Bevande</a>
-  </li>
-</ul>
-
-<app-search-bar></app-search-bar>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-4 p-3" *ngFor="let card of cards">
+            <div class="card p-3 rounded-4">
+                <img [src]="card.imageUrl" class="card-img-top rounded-4" alt="{{ card.altText }}" />
+                <div class="card-body">
+                    <h5 class="card-title">{{ card.title }}</h5>
+                    <p class="card-text">{{ card.ingredients.join(", ") }}</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-center rounded-bottom-4">
+                    <button class="btn btn-success w-45">Seleziona</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
