@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meal } from '../meal.interface';
 import { HttpClient } from '@angular/common/http';
+import { SearchBarComponent } from '../search-bar/search-bar.component';
 
 @Component({
   selector: 'app-pizze-rosse',
@@ -9,7 +10,6 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PizzeRosseComponent implements OnInit {
   cards: Meal[] = [];
-  searchTerm: string = '';
 
   constructor(private http: HttpClient) {}
   

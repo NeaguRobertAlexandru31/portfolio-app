@@ -12,6 +12,7 @@ import { PizzeRosseComponent } from './pizze-rosse/pizze-rosse.component';
 import { PizzeBiancheComponent } from './pizze-bianche/pizze-bianche.component';
 import { FocacceComponent } from './focacce/focacce.component';
 import { BevandeComponent } from './bevande/bevande.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { BevandeComponent } from './bevande/bevande.component';
     PizzeBiancheComponent,
     FocacceComponent,
     BevandeComponent,
+    SearchBarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
