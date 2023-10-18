@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ReservationsComponent } from './reservations/reservations.component';
 import { HomeComponent } from './home/home.component';
-import { ModaleComponent } from './modale/modale.component';
 import { PizzeRosseComponent } from './pizze-rosse/pizze-rosse.component';
 import { PizzeBiancheComponent } from './pizze-bianche/pizze-bianche.component';
 import { FocacceComponent } from './focacce/focacce.component';

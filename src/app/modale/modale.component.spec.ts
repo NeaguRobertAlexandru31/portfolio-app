@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ModaleComponent } from './modale.component';
 
-describe('HomeComponent', () => {
+describe('ModaleComponent', () => {
   let component: ModaleComponent;
   let fixture: ComponentFixture<ModaleComponent>;
 

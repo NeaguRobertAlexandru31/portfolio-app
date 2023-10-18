@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'modale',
+  selector: 'modale-component',
   templateUrl: './modale.component.html',
   styleUrls: ['./modale.component.css'],
 })
