@@ -1,8 +1,4 @@
-/* styles.css o styles.scss */
-#footer {
-  height: 80px; /* Altezza del tuo footer */
-}
-
-router-outlet {
-  margin-bottom: 80px; /* Altezza del tuo footer */
+:host {
+  display: block;
+  min-height: 100vh;
 }
