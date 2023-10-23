@@ -14,6 +14,7 @@ import { FocacceComponent } from './focacce/focacce.component';
 import { BevandeComponent } from './bevande/bevande.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CartComponent } from './cart/cart.component';
+import { CartDataService } from './cart-data.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { CartComponent } from './cart/cart.component';
     CartComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
-  providers: [],
+  providers: [CartDataService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

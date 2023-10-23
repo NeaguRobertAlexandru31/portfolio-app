@@ -9,6 +9,7 @@ export class CartDataService {
 
   addToCart(item: string){
     this.selectedItems.push(item);
+    console.log("ok", item);
   }
 
   getSelectedItems(){
