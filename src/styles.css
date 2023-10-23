@@ -1,5 +1,12 @@
+body {
+  min-height: 100vh;
+}
 app-component {
-  height: 80vh;
+  min-height: 100vh;
+}
+#app-reservations {
+  min-height: calc(100vh - 56px - 120.28);
+  margin-bottom: 80px;
 }
 .flag {
   background: rgb(14, 255, 0);
@@ -18,4 +25,14 @@ app-reservations a:hover {
 }
 .card .card-footer {
   border-top: 0;
+}
+app-reservations {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+app-reservations .container-fluid {
+  min-height: calc(100vh - 56px - 106.6px - 2rem);
+}
+app-reservations .col-lg-9 {
+  min-height: calc(100vh - 56px - 110px - 2rem);
 }
