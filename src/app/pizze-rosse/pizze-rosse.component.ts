@@ -18,9 +18,5 @@ export class PizzeRosseComponent implements OnInit {
       this.cards = data;
     });
   }
-
-  addToCart(item: Meal){
-    this.cartDataService.addToCart(item.title);
-  }
   
 }
