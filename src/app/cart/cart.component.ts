@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class CartComponent {
 
+  cartOpen: boolean = false;
+
+  toggleCart() {
+    this.cartOpen = !this.cartOpen;
+  }
+
 }
