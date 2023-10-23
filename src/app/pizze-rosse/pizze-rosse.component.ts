@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Meal } from '../meal.interface';
 import { HttpClient } from '@angular/common/http';
-import { SearchBarComponent } from '../search-bar/search-bar.component';
 import { CartDataService } from '../cart-data.service';
 
 @Component({

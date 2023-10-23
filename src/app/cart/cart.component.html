@@ -1,11 +1,11 @@
 <div class="card cart-container">
   <div class="card-header sticky-top">
-    <div class="cart-icon" (click)="toggleCart()">
+    <div class="cart-icon">
       <i class="bi bi-cart"></i>
     </div>
     Il Tuo Carrello
   </div>
-  <ul class="list-group list-group-flush" *ngIf="cartOpen">
+  <ul class="list-group list-group-flush">
     <!-- Messaggio per il carrello vuoto -->
     <li *ngFor="let item of selectedItems" class="list-group-item">{{ item }}
       <i class="bi bi-trash align-icon-right" (click)="removeFromCart(item)"></i>
