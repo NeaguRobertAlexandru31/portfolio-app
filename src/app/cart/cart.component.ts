@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CartDataService } from '../cart-data.service';
 
 @Component({
   selector: 'app-cart',
@@ -11,6 +12,12 @@ export class CartComponent {
 
   toggleCart() {
     this.cartOpen = !this.cartOpen;
+  }
+
+  selectedItems: string[];
+
+  constructor(private cartDataService: CartDataService){
+    this.selectedItems = cartDataService.getSelectedItems();
   }
 
 }

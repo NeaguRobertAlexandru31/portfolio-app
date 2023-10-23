@@ -1,7 +1,10 @@
 <div class="card">
   <div class="card-header sticky-top">
-    <div class="cart-icon" (click)="toggleCart()">icon</div>
-    Il Tuo Carrello</div>
+    <div class="cart-icon" (click)="toggleCart()">
+      <i class="bi bi-cart"></i>
+    </div>
+    Il Tuo Carrello
+  </div>
   <ul class="list-group list-group-flush" *ngIf="cartOpen">
     <!-- Messaggio per il carrello vuoto -->
     <li class="list-group-item">Il tuo carrello è vuoto.</li>

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Meal } from '../meal.interface';
 import { HttpClient } from '@angular/common/http';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
+import { CartDataService } from '../cart-data.service';
 
 @Component({
   selector: 'app-pizze-rosse',
@@ -11,11 +12,15 @@ import { SearchBarComponent } from '../search-bar/search-bar.component';
 export class PizzeRosseComponent implements OnInit {
   cards: Meal[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private cartDataService: CartDataService) {}
 
   ngOnInit(): void {
     this.http.get<Meal[]>('./assets/pizze-rosse.json').subscribe((data) => {
       this.cards = data;
     });
+  }
+
+  addToCart(item: Meal){
+    this.cartDataService.addToCart(item.title);
   }
 }
