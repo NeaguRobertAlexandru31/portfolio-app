@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Meal } from '../meal.interface';
 import { HttpClient } from '@angular/common/http';
 import { CartDataService } from '../cart-data.service';
+import { SearchBarComponent } from '../search-bar/search-bar.component';
+import { FilterPizzePipe } from '../filter-pizze.pipe';
 
 @Component({
   selector: 'app-pizze-rosse',
@@ -9,6 +11,8 @@ import { CartDataService } from '../cart-data.service';
   styleUrls: ['./pizze-rosse.component.css'],
 })
 export class PizzeRosseComponent implements OnInit {
+
+  searchTerm: string = "";
   cards: Meal[] = [];
 
   constructor(private http: HttpClient, private cartDataService: CartDataService) {}

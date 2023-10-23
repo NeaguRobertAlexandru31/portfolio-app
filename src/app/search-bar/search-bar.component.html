@@ -5,6 +5,7 @@
       <input
         type="text"
         [(ngModel)]="searchTerm"
+        [(ngModelChange)]="searchTermChange.emit($event)"
         placeholder="Cerca per nome o ingrediente"
         class="form-control m-3 rounded-4"
       />

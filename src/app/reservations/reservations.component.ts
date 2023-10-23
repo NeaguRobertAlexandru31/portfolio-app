@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FilterPizzePipe } from '../filter-pizze.pipe';
+import { SearchBarComponent } from '../search-bar/search-bar.component';
 
 @Component({
   selector: 'app-reservations',

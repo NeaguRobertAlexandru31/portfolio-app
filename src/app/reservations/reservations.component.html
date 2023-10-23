@@ -16,7 +16,7 @@
                 </li>
             </ul>
 
-            <app-search-bar></app-search-bar>
+            <app-search-bar [(searchTerm)]="searchTerm"></app-search-bar>
 
             <div class="tab-content">
                 <div class="tab-pane" [ngClass]="{ active: selectedPill === selectPill.rosse }">
