@@ -23,4 +23,5 @@ export class PizzeRosseComponent implements OnInit {
   addToCart(item: Meal){
     this.cartDataService.addToCart(item.title);
   }
+  
 }

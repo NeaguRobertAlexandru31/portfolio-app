@@ -20,4 +20,8 @@ export class CartComponent {
     this.selectedItems = cartDataService.getSelectedItems();
   }
 
+  removeFromCart(item: string){
+    this.cartDataService.removeFromCart(item);
+  }
+
 }

@@ -16,5 +16,12 @@ export class CartDataService {
     return this.selectedItems;
   }
 
+  removeFromCart(item: string){
+    const index = this.selectedItems.indexOf(item);
+    if(index !== -1){
+      this.selectedItems.splice(index, 1);
+    }
+  }
+
   constructor() { }
 }

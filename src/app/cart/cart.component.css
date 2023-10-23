@@ -1,0 +1,14 @@
+.cart-container {
+    position: fixed;
+    top: 0; /* Posiziona il carrello in cima alla finestra del browser */
+    right: 0; /* Posiziona il carrello a destra della finestra del browser */
+    max-height: 100vh; /* Impedisce al carrello di superare l'altezza della finestra */
+    overflow-y: auto; /* Aggiunge una barra di scorrimento se necessario */
+    width: 300px; /* Imposta la larghezza del carrello, adattala alle tue esigenze */
+    background-color: #fff; /* Imposta il colore di sfondo del carrello */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Aggiunge una leggera ombra per dare profondità */
+  }
+  
+  .align-icon-right{
+    float: right;
+  }

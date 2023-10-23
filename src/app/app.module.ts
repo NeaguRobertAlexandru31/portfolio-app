@@ -15,6 +15,7 @@ import { BevandeComponent } from './bevande/bevande.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CartComponent } from './cart/cart.component';
 import { CartDataService } from './cart-data.service';
+import { SelectPizzaComponent } from './select-pizza/select-pizza.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { CartDataService } from './cart-data.service';
     BevandeComponent,
     SearchBarComponent,
     CartComponent,
+    SelectPizzaComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [CartDataService],
