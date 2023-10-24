@@ -17,6 +17,7 @@ import { CartComponent } from './cart/cart.component';
 import { CartDataService } from './cart-data.service';
 import { ButtonAddCartComponent } from './button-add-cart/button-add-cart.component';
 import { FilterPizzePipe } from './filter-pizze.pipe';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FilterPizzePipe } from './filter-pizze.pipe';
     SearchBarComponent,
     CartComponent,
     ButtonAddCartComponent,
-    FilterPizzePipe
+    FilterPizzePipe,
+    ModalComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [CartDataService],
