@@ -15,6 +15,10 @@
           class="card-footer bg-white d-flex justify-content-center rounded-bottom-4"
         >
           <app-button-add-cart [item]="card"></app-button-add-cart>
+          <button (click)="openModal()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            Apri Modal
+          </button>
+          <app-modal *ngIf="showModal"></app-modal>
         </div>
       </div>
     </div>

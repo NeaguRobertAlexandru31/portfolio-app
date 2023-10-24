@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { CartDataService } from '../cart-data.service';
 import { SearchBarComponent } from '../search-bar/search-bar.component';
 import { FilterPizzePipe } from '../filter-pizze.pipe';
+import { ModalComponent } from '../modal/modal.component';
 
 @Component({
   selector: 'app-pizze-rosse',
@@ -21,6 +22,13 @@ export class PizzeRosseComponent implements OnInit {
     this.http.get<Meal[]>('./assets/pizze-rosse.json').subscribe((data) => {
       this.cards = data;
     });
+  }
+
+  showModal: boolean = false;
+
+  openModal(){
+    this.showModal = true;
+    console.log("ok mod")
   }
   
 }
