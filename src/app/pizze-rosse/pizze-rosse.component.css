@@ -1,0 +1,40 @@
+.modal-content {
+  background: #ffffff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: 25px;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  z-index: 999;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 998;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.pizza-name {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.ingredients {
+  font-size: 16px;
+}

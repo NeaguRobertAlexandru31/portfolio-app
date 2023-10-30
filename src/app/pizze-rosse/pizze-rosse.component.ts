@@ -10,15 +10,17 @@ import { HttpClient } from '@angular/common/http';
 export class PizzeRosseComponent implements OnInit {
   cards: Meal[] = [];
   searchTerm: string = '';
-  isModalOpen = false;
+  modalShow = false;
 
   openModal() {
-    this.isModalOpen = true;
+    this.modalShow = true;
     const body: any = document.querySelector('body');
     body.classList.add('block');
   }
   closeModal() {
-    this.isModalOpen = false;
+    this.modalShow = false;
+    const body: any = document.querySelector('body');
+    body.classList.remove('block');
   }
 
   constructor(private http: HttpClient) {}

@@ -12,7 +12,6 @@ import { PizzeRosseComponent } from './pizze-rosse/pizze-rosse.component';
 import { PizzeBiancheComponent } from './pizze-bianche/pizze-bianche.component';
 import { FocacceComponent } from './focacce/focacce.component';
 import { BevandeComponent } from './bevande/bevande.component';
-import { ModaleComponent } from './modale/modale.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,6 @@ import { ModaleComponent } from './modale/modale.component';
     PizzeBiancheComponent,
     FocacceComponent,
     BevandeComponent,
-    ModaleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
